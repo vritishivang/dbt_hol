@@ -34,3 +34,8 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+vars:
+  fivetran_platform_schema: fivetran_metadata
+  fivetran_platform_using_destination_membership: false
+  fivetran_platform_using_user: false
+  fivetran_platform_using_incremental_mar: false
